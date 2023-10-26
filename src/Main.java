@@ -1,3 +1,4 @@
+import Controler.Controler;
 import View.MyFrame;
 import View.MyPanel;
 
@@ -5,6 +6,6 @@ import View.MyPanel;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        new MyFrame(new MyPanel());
+        new Controler();
         }
     }

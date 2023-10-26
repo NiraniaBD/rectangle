@@ -20,11 +20,11 @@ public class MyShape {
 
     }
 
-    void draw(Graphics2D g){
+    public void draw(Graphics2D g){
         g.draw(shape);
     }
 
-    void straightShape(Point2D[]p){
+    public void straightShape(Point2D[]p){
         shape.setFrameFromDiagonal(p[0],p[1]);
 
     }
