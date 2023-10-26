@@ -28,7 +28,8 @@ public class MyPanel extends JPanel {
             @Override
             public void mouseDragged(MouseEvent e) {
                 controler.mouseDragged( e.getPoint());
-               // rectangle2D.setFrameFromDiagonal(p[0], p[1]);
+               //
+                // rectangle2D.setFrameFromDiagonal(p[0], p[1]);
                 repaint();
             }
 
